@@ -1,0 +1,401 @@
+body{
+  margin: 0px;
+  }
+
+.menu-line{
+  margin-top: 30px;
+  width: 400px;
+  border: 1px solid #dedede;
+}
+
+.container{
+  width:460px;
+  margin: auto;
+}
+
+/* Title */
+.room-title{
+  background-color: #e65423;
+  height: 40px;
+  border-radius: 2px;
+  padding-bottom: 0px;
+}
+
+.title{
+  display: flex;
+  list-style: none;
+  color: white;
+  font-size: 10px;
+  padding-left: 5px;
+}
+
+.title-cost{
+  display: flex;
+  list-style: none;
+  color: white;
+  font-size: 10px;
+  padding-left: 10px;
+}
+.title h4 h3 {
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+
+.title h4{
+  padding: 0 3px;
+  font-weight: bold;
+}
+
+.title i{
+  padding:0 2px;
+  padding-top: 15px;
+  font-size: 8px;
+}
+.heart {
+  color:white;
+}
+
+.selected {
+  color:#ab0000;
+}
+
+.stars{
+  color: white;
+}
+
+.stars .checked{
+  color: #ffd043;
+}
+
+ul{
+  padding-left: 3px;
+}
+
+ /* room image  */
+.room-image img{
+  height: 198px;
+  width: 316px;
+  margin: 20px 0;
+  display: flex;
+}
+
+/* Room information */
+.room-info{
+  background-color: #e65423;
+  height: 40px;
+  border-radius: 2px;
+  padding-bottom: 5px;
+}
+.room-info i{
+  color: white;
+}
+
+.room-info ul{
+  display: flex;
+  list-style: none;
+  padding: 0px;
+}
+
+.room-info h3{
+  color: white;
+  font-size: 10px;
+  text-align: center;
+  padding: 0 12px;
+}
+
+.guests-info,
+.parking-info,
+.wifi-info,
+.pet-info {
+  border-left: 2px dashed white;
+  height: auto;
+}
+
+/* Room description */
+.vl{
+  border-left: 2px solid #e65423;
+  height: auto;
+}
+.room-descreiption h1 {
+  font-size: 22px;
+  padding-left: 10px;
+}
+
+.room-descreiption .vl p{
+  font-size: 15px;
+  padding-left: 10px;
+  text-align: justify;
+}
+
+.booked {
+  background-color: #d80d0d;
+  color: white;
+  height: 30px;
+  width: 130px;
+  border: none;
+  border-radius: 3px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  float: right;
+}
+
+.book {
+  background-color: #e65423;
+  color: white;
+  height: 30px;
+  width: 130px;
+  border: none;
+  border-radius: 3px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  float: right;
+}
+
+.book:hover{
+  background-color: #a40d0d;
+}
+
+/* Map */
+.mapouter{
+  margin: 50px 0;
+}
+.map-line{
+  margin-top: 40px;
+  border-top: 1px dashed #dedede;
+}
+
+.reviews{
+  margin-top: 180px;
+}
+
+/* Reviews */
+.old-reviews{
+  padding-left: 10px;
+  margin-bottom: 50px;
+}
+
+.old-reviews h2{
+  font-size: 18px;
+}
+
+.old-reviews p{
+  font-size: 16px;
+}
+
+.add-review{
+    padding-left: 10px;
+    margin-bottom: 80px;
+}
+
+ h1{
+  font-size: 22px;
+  padding-left: 10px;
+}
+
+.add-review h2{
+  font-size: 22px;
+}
+
+.add-review h2 i{
+  color: #dddddd;
+}
+
+.textbox{
+  width: 400px;
+  height: 45px;
+  border: 1px solid #dedede;
+  margin-bottom:  10px;
+}
+
+.rate {
+    float: left;
+    height: 46px;
+    padding: 0 0px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #ffd043;
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+
+#review-button {
+  height: 40px;
+  width: 100px;
+  background-color: #e65423;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+  margin-top: 60px;
+  cursor: pointer;
+}
+
+#review-button:hover{
+ background-color: #c75423;
+}
+
+#review-button:disabled{
+  background-color: #e09075;
+  color: white;
+}
+
+/* Copyright */
+footer{
+  background-color: #d6d6d6;
+  height: 40px;
+  border-top: 4px solid #7e7e7e;
+  background-size: cover;
+}
+
+footer p{
+  text-align: center;
+  color: #7e7e7e;
+  font-size: 12px;
+  padding: 7px;
+}
+
+@media (min-width: 640px)
+ {
+   .container{
+     width:600px;
+   }
+   .textbox{
+     width: 550px;
+   }
+   .menu-line{
+     width: 600px;
+   }
+   .title-cost{
+     padding-left: 20px;
+     font-size: 12px;
+   }
+   .title{
+     font-size: 12px;
+     padding-left: 15px;
+   }
+   .title i{
+     font-size: 12px;
+     padding-top: 18px;
+   }
+   .room-title{
+     padding-bottom: 6px;
+   }
+   .room-image img{
+     height: 330px;
+     width: 525px;
+   }
+   .room-info{
+     padding-bottom: 12px;
+   }
+   .room-info h3{
+     font-size: 12px;
+     padding: 0 20px;
+   }
+ }
+
+ @media (min-width: 960px) {
+   .container{
+     width:900px;
+   }
+   .textbox{
+     width: 850px;
+   }
+   .menu-line{
+     width: 900px;
+   }
+   .title-cost{
+     padding-left: 190px;
+     font-size: 15px;
+   }
+   .title{
+     font-size: 15px;
+     padding-left: 15px;
+   }
+   .title i{
+     font-size: 15px;
+     padding-top: 20px;
+   }
+   .room-title{
+     padding-bottom: 12px;
+   }
+   .room-image{
+     height: 330px;
+     width: 525px;
+   }
+   .room-info{
+     padding-bottom: 15px;
+   }
+   .room-info h3{
+     font-size: 12px;
+     padding: 0 50px;
+   }
+ }
+
+
+ @media (min-width: 1280px) {
+   .container {
+     width:1000px;
+   }
+   .textbox{
+     width: 950px;
+   }
+   .menu-line{
+     width: 1200px;
+   }
+   .title-cost{
+     padding-left: 270px;
+     font-size: 15px;
+   }
+   .title{
+     font-size: 15px;
+     padding-left: 15px;
+   }
+   .title i{
+     font-size: 15px;
+     padding-top: 20px;
+   }
+   .room-title{
+     padding-bottom: 12px;
+   }
+   .room-image{
+     height: 330px;
+     width: 525px;
+   }
+   .room-info{
+     padding-bottom: 12px;
+   }
+   .room-info h3{
+     font-size: 12px;
+     padding: 0 60px;
+   }
+
+ }

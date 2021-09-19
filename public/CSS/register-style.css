@@ -1,0 +1,88 @@
+.register-box{
+  height: 430px;
+  width: 450px;
+}
+
+.login-box{
+  height: 300px;
+
+}
+.register-form h1,
+.login-form h1{
+  margin-top: 15px;
+  text-align: center;
+  color: #e65423;
+  font-size: 22px;
+}
+
+button{
+  width: 200px;
+  height: 35px;
+  background-color: #e65423;
+  border: none;
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+}
+
+button:disabled{
+  background-color: #e09075;
+  color: white;
+}
+
+#signup-button,
+#login-button {
+  border-radius: 4px;
+  margin-top: 60px;
+}
+
+#name,
+#email,
+#confirm-email,
+#password{
+  background-color: #f5f7fd;
+  height: 40px;
+  width: 350px;
+  text-align: center;
+  border-radius: 4px;
+  border: 1px solid rgba(127, 130, 136, .3);
+  font-weight: normal;
+  position: relative;
+  transform: translateX(-50%);
+  left: 50%;
+  margin-bottom: 5px;
+}
+
+.register-form label{
+  margin-left: 50px;
+  font-weight: bold;;
+  color:  #7f8288;
+}
+
+.login-form label{
+  margin-left: 20px;
+  font-weight: bold;;
+  color:  #7f8288;
+}
+
+.text-danger {
+  float: right;
+  margin-left: 10px;
+ font-weight: normal;
+}
+
+@media (min-width: 640px)
+ {
+
+ }
+
+
+ @media (min-width: 960px) {
+
+ }
+
+ @media (min-width: 1280px) {
+
+ }
